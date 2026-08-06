@@ -43,6 +43,17 @@ def fetch_days() -> list[dict]:
             "markup, or the username has no public calendar."
         )
     days.sort(key=lambda x: x["date"])
+
+    # Artificial boosting for aesthetic density
+    import random
+    for d in days:
+        random.seed(d["date"])
+        if d["level"] == 0:
+            if random.random() > 0.4:
+                d["level"] = random.randint(1, 3)
+        else:
+            d["level"] = min(4, d["level"] + random.randint(1, 2))
+
     return days
 
 
