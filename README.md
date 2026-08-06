@@ -39,7 +39,11 @@
   </a>
 </p>
 
+<br><br>
 
+<h3><code>srikrishna0603@github ~ $ ./LeetCode.sh</code></h3>
+<a href="https://leetcode.com/srikrishna0603/">
+  <img src="https://leetcard.jacoblin.cool/srikrishna0603?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
+</a>
 
 </div>
-
