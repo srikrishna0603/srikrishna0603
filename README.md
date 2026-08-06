@@ -5,13 +5,9 @@
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=F72585&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Sri+Krishna+%F0%9F%91%8B;Software+Engineer+%7C+Tech+Enthusiast;Computer+Vision+%26+AI+Builder;Crafting+Code+%7C+Solving+Problems" alt="Typing SVG" />
 
 <br><br>
-
-<h3><code>srikrishna0603@github ~ $ ./contributions.sh</code></h3>
 <img src="./contrib-heatmap.svg?v=3" width="860" />
 
 <br><br>
-
-<h3><code>srikrishna0603@github ~ $ whoami</code></h3>
 <table>
   <tr>
     <td valign="top"><img src="./avi-ascii.svg?v=3" width="370" /></td>

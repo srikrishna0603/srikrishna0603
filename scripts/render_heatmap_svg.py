@@ -25,7 +25,7 @@ PALETTE = ["#0d1117", "#4a044e", "#86198f", "#d946ef", "#f0abfc", "#fdf4ff"]
 CELL = 11
 GAP = 3
 LEFT_PAD = 30
-TOP_PAD = 20
+TOP_PAD = 54
 STAGGER_S = 0.012
 FADE_S = 0.25
 
@@ -69,7 +69,12 @@ def build_svg(weeks: list[list[dict | None]], stats: dict) -> str:
     parts = [
         f'<svg viewBox="0 0 {width:.0f} {height:.0f}" '
         f'xmlns="http://www.w3.org/2000/svg" font-family="monospace">',
-        '<rect width="100%" height="100%" fill="transparent"/>',
+        f'<rect width="100%" height="100%" rx="8" fill="#09090b" stroke="#27272a" stroke-width="1"/>',
+        f'<path d="M 0 8 Q 0 0 8 0 L {width-8} 0 Q {width} 0 {width} 8 L {width} 34 L 0 34 Z" fill="#18181b"/>',
+        f'<circle cx="20" cy="17" r="4" fill="#ff5f56"/>',
+        f'<circle cx="36" cy="17" r="4" fill="#ffbd2e"/>',
+        f'<circle cx="52" cy="17" r="4" fill="#27c93f"/>',
+        f'<text x="{width/2}" y="21" fill="#e0e7ff" font-size="12" font-weight="bold" text-anchor="middle">srikrishna0603@github ~ $ ./contributions.sh</text>',
     ]
 
     idx = 0

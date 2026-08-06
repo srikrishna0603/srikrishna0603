@@ -18,7 +18,7 @@ OUT = Path(__file__).parent.parent / "info-card.svg"
 STATIC = os.environ.get("STATIC") == "1"
 
 # --- EDIT THESE — keep it factual, this is what recruiters actually read ---
-TITLE = "srikrishna0603@github"
+TITLE = "srikrishna0603@github ~ $ whoami"
 ROWS = [
     ("Now", "Final-year ECE @ CBIT Hyderabad · SDE Intern @ CES Neosilica"),
     ("Focus", "Software Engineering, applied to Computer Vision systems"),
