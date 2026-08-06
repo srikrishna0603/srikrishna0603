@@ -15,5 +15,23 @@
   </tr>
 </table>
 
+<br><br>
+
+<h3><code>srikrishna0603@github ~ $ ./Links.sh</code></h3>
+<p>Software Engineer • ECE @ CBIT • Computer Vision Enthusiast</p>
+
+<a href="https://linkedin.com/in/srikrishna0603">
+  <img src="https://img.shields.io/badge/LinkedIn-srikrishna0603-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://github.com/srikrishna0603">
+  <img src="https://img.shields.io/badge/GitHub-srikrishna0603-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="mailto:srikrishna0603@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Portfolio-Website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+</a>
+
 </div>
 
