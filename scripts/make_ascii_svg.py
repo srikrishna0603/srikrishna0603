@@ -23,7 +23,7 @@ GRID_ROWS = 53
 FONT_SIZE = 8
 CHAR_W = FONT_SIZE * 0.6
 CHAR_H = FONT_SIZE * 1.05
-FILL_COLOR = "#9aa5b1"  # single light-gray fill — no rainbow-per-char
+FILL_COLOR = "#4cc9f0"  # Vibrant cyberpunk cyan
 STAGGER_S = 0.02        # delay added per row
 WIPE_S = 0.35           # duration of each row's wipe
 

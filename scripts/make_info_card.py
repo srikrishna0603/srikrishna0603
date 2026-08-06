@@ -33,11 +33,11 @@ PAD_X = 20
 TITLE_H = 34
 ROW_H = 30
 FONT = "monospace"
-BG = "#0d1117"
-BORDER = "#30363d"
-TITLE_BG = "#161b22"
-KEY_COLOR = "#58a6ff"
-VAL_COLOR = "#c9d1d9"
+BG = "#09090b"
+BORDER = "#27272a"
+TITLE_BG = "#18181b"
+KEY_COLOR = "#f72585"
+VAL_COLOR = "#e0e7ff"
 STAGGER_S = 0.15
 FADE_S = 0.4
 

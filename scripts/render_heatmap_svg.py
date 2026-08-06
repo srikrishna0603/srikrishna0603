@@ -20,7 +20,7 @@ from pathlib import Path
 DATA = Path(__file__).parent.parent / "data" / "contributions.json"
 OUT = Path(__file__).parent.parent / "contrib-heatmap.svg"
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+PALETTE = ["#0d1117", "#4a044e", "#86198f", "#d946ef", "#f0abfc", "#fdf4ff"]
 
 CELL = 11
 GAP = 3
