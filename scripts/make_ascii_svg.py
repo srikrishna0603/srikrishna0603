@@ -66,28 +66,18 @@ def build_svg(rows: list[str]) -> str:
         "<defs>",
     ]
 
-    # Each row: a <text> clipped by an animated <clipPath> rect that
-    # grows from width 0 to full width (the left-to-right wipe).
-    for i, row in enumerate(rows):
-        row_id = f"row{i}"
-        delay = 0.5 + i * STAGGER_S
-        parts.append(
-            f'<clipPath id="clip{row_id}"><rect x="0" y="0" width="0" '
-            f'height="{CHAR_H:.1f}">'
-            f'<animate attributeName="width" from="0" to="{width:.0f}" '
-            f'begin="{delay:.2f}s" dur="{WIPE_S}s" fill="freeze" '
-            f'calcMode="spline" keySplines="0.4 0 0.2 1"/>'
-            f"</rect></clipPath>"
-        )
-    parts.append("</defs>")
+
 
     for i, row in enumerate(rows):
         y = (i + 1) * CHAR_H - (CHAR_H * 0.25)
         text = escape_xml(row.rstrip())
         if not text.strip():
             continue
+        delay = 0.5 + i * STAGGER_S
         parts.append(
-            f'<g clip-path="url(#clip{"row"+str(i)})">'
+            f'<g opacity="0">'
+            f'<animate attributeName="opacity" from="0" to="1" '
+            f'begin="{delay:.2f}s" dur="{WIPE_S}s" fill="freeze"/>'
             f'<text x="0" y="{y:.1f}" fill="{FILL_COLOR}" '
             f'xml:space="preserve">{text}</text></g>'
         )
