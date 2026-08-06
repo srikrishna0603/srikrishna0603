@@ -79,7 +79,7 @@ def build_svg(weeks: list[list[dict | None]], stats: dict) -> str:
             level = cell["level"] if cell else 0
             x = LEFT_PAD + w * (CELL + GAP)
             y = TOP_PAD + d * (CELL + GAP)
-            delay = (w + d) * STAGGER_S  # diagonal stagger
+            delay = 0.5 + (w + d) * STAGGER_S  # diagonal stagger
             color = PALETTE[min(level, len(PALETTE) - 1)]
             parts.append(
                 f'<rect x="{x}" y="{y - 6}" width="{CELL}" height="{CELL}" rx="2" '

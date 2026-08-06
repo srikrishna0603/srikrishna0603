@@ -70,7 +70,7 @@ def build_svg(rows: list[str]) -> str:
     # grows from width 0 to full width (the left-to-right wipe).
     for i, row in enumerate(rows):
         row_id = f"row{i}"
-        delay = i * STAGGER_S
+        delay = 0.5 + i * STAGGER_S
         parts.append(
             f'<clipPath id="clip{row_id}"><rect x="0" y="0" width="0" '
             f'height="{CHAR_H:.1f}">'

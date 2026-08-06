@@ -72,7 +72,7 @@ def build_svg() -> str:
         anim = ""
         transform_start = "translate(-8,0)"
         if not STATIC:
-            delay = i * STAGGER_S
+            delay = 0.5 + i * STAGGER_S
             anim = (
                 f'<animate attributeName="opacity" from="0" to="1" '
                 f'begin="{delay:.2f}s" dur="{FADE_S}s" fill="freeze"/>'
