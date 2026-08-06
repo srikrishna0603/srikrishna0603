@@ -5,13 +5,13 @@
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=F72585&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Sri+Krishna+%F0%9F%91%8B;Software+Engineer+%7C+Tech+Enthusiast;Computer+Vision+%26+AI+Builder;Crafting+Code+%7C+Solving+Problems" alt="Typing SVG" />
 
 <br><br>
-<img src="./contrib-heatmap.svg?v=3" width="860" />
+<img src="https://raw.githubusercontent.com/srikrishna0603/srikrishna0603/main/contrib-heatmap.svg?t=123" width="860" />
 
 <br><br>
 <table>
   <tr>
-    <td valign="top"><img src="./avi-ascii.svg?v=4" width="370" /></td>
-    <td valign="top"><img src="./info-card.svg?v=3" width="490" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/srikrishna0603/srikrishna0603/main/avi-ascii.svg?t=123" width="370" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/srikrishna0603/srikrishna0603/main/info-card.svg?t=123" width="490" /></td>
   </tr>
 </table>
 
