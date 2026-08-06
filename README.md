@@ -39,12 +39,7 @@
   </a>
 </p>
 
-<br><br>
 
-<h3><code>srikrishna0603@github ~ $ ./Stats.sh</code></h3>
-<a href="https://github.com/srikrishna0603">
-  <img src="https://github-readme-stats.vercel.app/api?username=srikrishna0603&theme=synthwave&show_icons=true&hide_border=true&title_color=F72585&text_color=e0e7ff&icon_color=4cc9f0&bg_color=09090b" alt="GitHub Stats" />
-</a>
 
 </div>
 
