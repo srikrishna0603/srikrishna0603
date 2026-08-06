@@ -1,3 +1,5 @@
+### Hi there 👋
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=F72585&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Sri+Krishna+👋;Software+Engineer+%7C+Tech+Enthusiast;Computer+Vision+%26+AI+Builder;Crafting+Code+%7C+Solving+Problems" alt="Typing SVG" />
