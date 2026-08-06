@@ -63,7 +63,6 @@ def build_svg(rows: list[str]) -> str:
         f'xmlns="http://www.w3.org/2000/svg" font-family="monospace" '
         f'font-size="{FONT_SIZE}">',
         f'<rect width="100%" height="100%" fill="transparent"/>',
-        "<defs>",
     ]
 
 

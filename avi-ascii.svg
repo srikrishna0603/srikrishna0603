@@ -1,6 +1,5 @@
 <svg viewBox="0 0 480 445" xmlns="http://www.w3.org/2000/svg" font-family="monospace" font-size="8">
 <rect width="100%" height="100%" fill="transparent"/>
-<defs>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.50s" dur="0.35s" fill="freeze"/><text x="0" y="6.3" fill="#4cc9f0" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text></g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.52s" dur="0.35s" fill="freeze"/><text x="0" y="14.7" fill="#4cc9f0" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text></g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.54s" dur="0.35s" fill="freeze"/><text x="0" y="23.1" fill="#4cc9f0" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text></g>
