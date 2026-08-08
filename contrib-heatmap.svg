@@ -384,5 +384,5 @@
 <rect x="120" y="169" width="11" height="11" rx="2" fill="#f0abfc"/>
 <rect x="134" y="169" width="11" height="11" rx="2" fill="#fdf4ff"/>
 <text x="152" y="178" font-size="10" fill="#8b949e">More</text>
-<text x="772" y="178" font-size="10" fill="#8b949e" text-anchor="end">220 active days · 10-day longest streak · 3-day current streak</text>
+<text x="772" y="178" font-size="10" fill="#8b949e" text-anchor="end">220 active days · 10-day longest streak · 0-day current streak</text>
 </svg>
