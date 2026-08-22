@@ -367,7 +367,7 @@
 <rect x="744" y="76" width="11" height="11" rx="2" fill="#d946ef" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.136s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="76" to="82" begin="1.136s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
 <rect x="744" y="90" width="11" height="11" rx="2" fill="#86198f" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.148s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="90" to="96" begin="1.148s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
 <rect x="744" y="104" width="11" height="11" rx="2" fill="#d946ef" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.160s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="104" to="110" begin="1.160s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
-<rect x="744" y="118" width="11" height="11" rx="2" fill="#d946ef" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.172s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="118" to="124" begin="1.172s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
+<rect x="744" y="118" width="11" height="11" rx="2" fill="#86198f" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.172s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="118" to="124" begin="1.172s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
 <rect x="744" y="132" width="11" height="11" rx="2" fill="#d946ef" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.184s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="132" to="138" begin="1.184s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
 <rect x="758" y="48" width="11" height="11" rx="2" fill="#d946ef" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.124s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="48" to="54" begin="1.124s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
 <rect x="758" y="62" width="11" height="11" rx="2" fill="#86198f" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.136s" dur="0.25s" fill="freeze"/><animate attributeName="y" from="62" to="68" begin="1.136s" dur="0.25s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
@@ -384,5 +384,5 @@
 <rect x="120" y="169" width="11" height="11" rx="2" fill="#f0abfc"/>
 <rect x="134" y="169" width="11" height="11" rx="2" fill="#fdf4ff"/>
 <text x="152" y="178" font-size="10" fill="#8b949e">More</text>
-<text x="772" y="178" font-size="10" fill="#8b949e" text-anchor="end">225 active days · 17-day longest streak · 17-day current streak</text>
+<text x="772" y="178" font-size="10" fill="#8b949e" text-anchor="end">225 active days · 17-day longest streak · 0-day current streak</text>
 </svg>
