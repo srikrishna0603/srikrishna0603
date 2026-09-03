@@ -1470,12 +1470,16 @@
     },
     {
       "date": "2026-09-02",
+      "level": 2
+    },
+    {
+      "date": "2026-09-03",
       "level": 0
     }
   ],
   "stats": {
-    "total_active_days": 228,
-    "longest_streak": 28,
+    "total_active_days": 229,
+    "longest_streak": 29,
     "current_streak": 0,
     "best_day": "2026-04-18",
     "monthly_active_days": {
@@ -1492,8 +1496,8 @@
       "2026-06": 14,
       "2026-07": 18,
       "2026-08": 28,
-      "2026-09": 1
+      "2026-09": 2
     },
-    "generated_at": "2026-09-02T11:14:11.865569+00:00"
+    "generated_at": "2026-09-03T11:10:22.072687+00:00"
   }
 }
