@@ -1466,13 +1466,17 @@
     },
     {
       "date": "2026-10-13",
-      "level": 2
+      "level": 3
+    },
+    {
+      "date": "2026-10-14",
+      "level": 0
     }
   ],
   "stats": {
     "total_active_days": 247,
     "longest_streak": 70,
-    "current_streak": 70,
+    "current_streak": 0,
     "best_day": "2026-04-18",
     "monthly_active_days": {
       "2025-10": 12,
@@ -1489,6 +1493,6 @@
       "2026-09": 30,
       "2026-10": 13
     },
-    "generated_at": "2026-10-13T14:06:57.855031+00:00"
+    "generated_at": "2026-10-14T11:47:01.529224+00:00"
   }
 }
