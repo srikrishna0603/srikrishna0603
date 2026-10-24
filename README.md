@@ -10,7 +10,7 @@
 <br><br>
 <table>
   <tr>
-    <td valign="top"><img src="https://raw.githubusercontent.com/srikrishna0603/srikrishna0603/main/avi-portrait.png?t=123" width="370" alt="Sri Krishna in a cyan terminal-style portrait" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/srikrishna0603/srikrishna0603/main/avi-portrait-natural.png?t=123" width="370" alt="Sri Krishna in a terminal-framed portrait" /></td>
     <td valign="top"><img src="https://raw.githubusercontent.com/srikrishna0603/srikrishna0603/main/info-card.svg?t=123" width="490" /></td>
   </tr>
 </table>
