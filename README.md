@@ -40,3 +40,42 @@
 </p>
 
 </div>
+
+## What I am building now
+
+### ATHENA — source-grounded research and study workspace
+
+I am building ATHENA as a pre-launch product for students, researchers and teams who need to work from their own documents without losing the evidence behind an answer.
+
+The current internal release candidate includes:
+
+- account-scoped document workflows and source-passage search
+- citation inspection, study kits, quizzes and flashcards
+- exam-pattern analysis with explicit uncertainty language
+- a React frontend backed by Python/FastAPI services
+- Redis-backed quotas, plan entitlements and fail-closed cost guardrails for future metered AI features
+
+ATHENA is still in internal testing. The public beta is not open, and the repository should be read as an engineering work-in-progress rather than a production-service claim.
+
+**Project:** [github.com/srikrishna0603/athena](https://github.com/srikrishna0603/athena)  
+**Portfolio:** [srikrishnasowri.dev](https://srikrishnasowri.dev)  
+**LinkedIn:** [linkedin.com/in/srikrishnasowri](https://linkedin.com/in/srikrishnasowri)
+
+### A short proof-oriented introduction
+
+> I build backend and AI products where the hard part is making the system inspectable: source-grounded retrieval, explicit citations, bounded usage, and failure-aware workflows. My current project is ATHENA, a pre-launch research and study workspace, alongside hands-on work in FastAPI, graph systems, React and applied computer vision.
+
+## Public work on GitHub
+
+These are the public repositories currently visible from my GitHub profile:
+
+| Repository | What it demonstrates |
+| --- | --- |
+| [ShieldGraph](https://github.com/srikrishna0603/shield-graph) | Software supply-chain vulnerability blast-radius analysis with FastAPI, openCypher and a React/Three.js interface |
+| [BlockProof](https://github.com/srikrishna0603/blockproof-project) | Document verification workflow using SHA-256 hashing and a blockchain-style ledger |
+| [474 DSA Master Sheet](https://github.com/srikrishna0603/474-dsa-master-sheet) | Open-source interview-preparation roadmap and interactive tracker |
+| [Razorpay Buildathon](https://github.com/srikrishna0603/razorpay-buildathon) | Buildathon project work and experimentation |
+| [Personal Portfolio](https://github.com/srikrishna0603/portfolio) | Next.js portfolio with project walkthroughs, resume and contact routes |
+| [GitHub Profile](https://github.com/srikrishna0603/srikrishna0603) | This profile README and contribution presentation |
+
+Some projects, including ATHENA, are intentionally private while they are still being tested. The profile links to the public proof without implying that private work is already an open-source release.
