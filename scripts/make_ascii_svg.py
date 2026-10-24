@@ -16,10 +16,10 @@ import numpy as np
 from PIL import Image
 
 # Bright (sparse) -> dark (dense). Leading space clears the background.
-RAMP = " .`:-=+*cs#%@"
+RAMP = " .,:;irsXA253hMHGS#9B&@"
 
-GRID_COLS = 100
-GRID_ROWS = 53
+GRID_COLS = 104
+GRID_ROWS = 78
 FONT_SIZE = 8
 CHAR_W = FONT_SIZE * 0.6
 CHAR_H = FONT_SIZE * 1.05
@@ -61,7 +61,7 @@ def build_svg(rows: list[str]) -> str:
     parts = [
         f'<svg viewBox="0 0 {width:.0f} {height:.0f}" '
         f'xmlns="http://www.w3.org/2000/svg" font-family="monospace" '
-        f'font-size="{FONT_SIZE}">',
+        f'font-size="{FONT_SIZE}" preserveAspectRatio="xMidYMid meet">',
         f'<rect width="100%" height="100%" fill="transparent"/>',
     ]
 
