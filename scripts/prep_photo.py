@@ -15,7 +15,14 @@ from pathlib import Path
 import cv2
 import numpy as np
 from PIL import Image
-from rembg import remove
+
+try:
+    from rembg import remove
+except ModuleNotFoundError:
+    # Background removal is an optional enhancement.  Keep the deterministic
+    # grayscale pipeline usable in lightweight environments (for example,
+    # GitHub/profile-art generation) where onnxruntime is not installed.
+    remove = None
 
 OUT_PATH = Path(__file__).parent / "source-prepped.png"
 
@@ -25,12 +32,12 @@ def prep(photo_path: str) -> None:
     if not src.exists():
         raise SystemExit(f"File not found: {photo_path}")
 
-    # 1. Remove background so only the subject remains.
+    # 1. Remove background when the optional rembg runtime is available.
     with open(src, "rb") as f:
         input_bytes = f.read()
-    output_bytes = remove(input_bytes)
+    output_bytes = remove(input_bytes) if remove is not None else input_bytes
 
-    # 2. Composite the transparent result onto a pure white background,
+    # 2. Composite the result onto a pure white background,
     #    so the removed background maps to the blank end of the ASCII ramp.
     from io import BytesIO
     fg = Image.open(BytesIO(output_bytes)).convert("RGBA")
